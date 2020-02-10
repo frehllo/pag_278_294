@@ -7,7 +7,7 @@ namespace es1_278
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Quanti numeri vuoi inserire? ");
+            Console.WriteLine("Quanti numeri vuoi inserire?");
             double numeri = double.Parse(Console.ReadLine());
             List<double> numerilista = new List<double>();
             List<double> doppi = new List<double>();
